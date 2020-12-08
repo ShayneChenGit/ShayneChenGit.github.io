@@ -87,7 +87,7 @@
 <meta property="og:description" content="在github上启用github pages 创建一个repository  名字一定要是 your-github-name.github.io 权限一定要是public  在repo的setting的Options下可以找到你的个人主页的地址，一般是 https:&#x2F;&#x2F;your-github-name.github.io  以及还有source branch信息等。 准备环境 安装git  本地生">
 <meta property="og:locale">
 <meta property="article:published_time" content="2020-12-08T02:26:10.000Z">
-<meta property="article:modified_time" content="2020-12-08T07:25:10.733Z">
+<meta property="article:modified_time" content="2020-12-08T07:37:08.089Z">
 <meta property="article:author" content="Shayne Chen">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -348,6 +348,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  852
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  3
+                </span>
+              
+            </div>
+          
 
           
 
@@ -474,10 +505,9 @@
 
 
 <h4 id="博文开启评论"><a href="#博文开启评论" class="headerlink" title="博文开启评论"></a>博文开启评论</h4><p>打开 /themes/next/_config.yml 文件，搜索 valine，开启 valine，设置 enable 为 true</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">valine:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">valine:</span><br><span class="line">  enable: true</span><br><span class="line">  appid:  uB0142TQIGSD7i1EjcjcuyrU-gzGzoHsz</span><br><span class="line">  appkey:  QEt74aFxzrzE3BVuMkshVRN0</span><br></pre></td></tr></table></figure>
 
-
-
+<p>使用leancloud创建应用，然后填写appid和appkey</p>
 <h4 id="hexo主题next访问报错"><a href="#hexo主题next访问报错" class="headerlink" title="hexo主题next访问报错"></a>hexo主题next访问报错</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% extends ‘_layout.swig‘ %&#125; &#123;% import ‘_macro&#x2F;post.swig‘ as post_template %&#125;</span><br></pre></td></tr></table></figure>
 
 <p>原因是hexo在5.0之后把swig给删除了需要自己手动安装</p>
@@ -698,6 +728,15 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Shayne Chen</span>
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">1.1k</span>
   
 </div>
 
